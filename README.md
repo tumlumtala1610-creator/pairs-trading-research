@@ -12,8 +12,10 @@ ETFs translates into out-of-sample trading performance after costs.
 ## Current Progress
 
 - Defined the research protocol and ETF universe.
-- Implemented development-sample data collection and download metadata.
-- Next: complete data quality checks before statistical testing.
+- Downloaded and cached development-sample data.
+- Completed the initial data quality review and pair coverage analysis.
+- Produced normalized price charts for all four ETF groups.
+- Next: OLS estimation, stationarity checks, and cointegration testing.
 
 No strategy performance results are available yet.
 

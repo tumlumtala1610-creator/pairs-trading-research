@@ -1,0 +1,13 @@
+group,A,B,common_observations,first_common,last_common,enough_for_formation,formation_504th_date
+us_large_cap,IVV,SPY,2516,2010-01-04,2019-12-31,True,2011-12-30
+us_large_cap,IVV,VOO,2344,2010-09-09,2019-12-31,True,2012-09-06
+us_large_cap,SPY,VOO,2344,2010-09-09,2019-12-31,True,2012-09-06
+us_total_market,ITOT,SCHB,2516,2010-01-04,2019-12-31,True,2011-12-30
+us_total_market,ITOT,VTI,2516,2010-01-04,2019-12-31,True,2011-12-30
+us_total_market,SCHB,VTI,2516,2010-01-04,2019-12-31,True,2011-12-30
+developed_ex_us,EFA,SCHF,2516,2010-01-04,2019-12-31,True,2011-12-30
+developed_ex_us,EFA,VEA,2516,2010-01-04,2019-12-31,True,2011-12-30
+developed_ex_us,SCHF,VEA,2516,2010-01-04,2019-12-31,True,2011-12-30
+emerging_markets,EEM,IEMG,1807,2012-10-24,2019-12-31,True,2014-10-27
+emerging_markets,EEM,VWO,2516,2010-01-04,2019-12-31,True,2011-12-30
+emerging_markets,IEMG,VWO,1807,2012-10-24,2019-12-31,True,2014-10-27

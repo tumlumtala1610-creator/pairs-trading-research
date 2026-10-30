@@ -1,0 +1,5 @@
+group,first_common,last_common,common_observations
+us_large_cap,2010-09-09,2019-12-31,2344
+us_total_market,2010-01-04,2019-12-31,2516
+developed_ex_us,2010-01-04,2019-12-31,2516
+emerging_markets,2012-10-24,2019-12-31,1807
