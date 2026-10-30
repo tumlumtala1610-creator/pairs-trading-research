@@ -1,0 +1,13 @@
+group,A,B
+us_large_cap,IVV,SPY
+us_large_cap,IVV,VOO
+us_large_cap,SPY,VOO
+us_total_market,ITOT,SCHB
+us_total_market,ITOT,VTI
+us_total_market,SCHB,VTI
+developed_ex_us,EFA,SCHF
+developed_ex_us,EFA,VEA
+developed_ex_us,SCHF,VEA
+emerging_markets,EEM,IEMG
+emerging_markets,EEM,VWO
+emerging_markets,IEMG,VWO

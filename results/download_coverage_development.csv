@@ -1,0 +1,13 @@
+group,ticker,rows,valid_prices,first_valid,last_valid,missing_prices,dividend_data,split_data
+us_large_cap,SPY,2516,2516,2010-01-04,2019-12-31,0,True,True
+us_large_cap,IVV,2516,2516,2010-01-04,2019-12-31,0,True,True
+us_large_cap,VOO,2344,2344,2010-09-09,2019-12-31,0,True,True
+us_total_market,VTI,2516,2516,2010-01-04,2019-12-31,0,True,True
+us_total_market,ITOT,2516,2516,2010-01-04,2019-12-31,0,True,True
+us_total_market,SCHB,2516,2516,2010-01-04,2019-12-31,0,True,True
+developed_ex_us,EFA,2516,2516,2010-01-04,2019-12-31,0,True,True
+developed_ex_us,VEA,2516,2516,2010-01-04,2019-12-31,0,True,True
+developed_ex_us,SCHF,2516,2516,2010-01-04,2019-12-31,0,True,True
+emerging_markets,EEM,2516,2516,2010-01-04,2019-12-31,0,True,True
+emerging_markets,VWO,2516,2516,2010-01-04,2019-12-31,0,True,True
+emerging_markets,IEMG,1807,1807,2012-10-24,2019-12-31,0,True,True

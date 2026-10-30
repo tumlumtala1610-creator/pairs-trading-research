@@ -1,0 +1,42 @@
+data:
+  start: "2010-01-01"
+  end_exclusive: "2020-01-01"
+  interval: "1d"
+
+groups:
+  us_large_cap:
+    - SPY
+    - IVV
+    - VOO
+
+  us_total_market:
+    - VTI
+    - ITOT
+    - SCHB
+
+  developed_ex_us:
+    - EFA
+    - VEA
+    - SCHF
+
+  emerging_markets:
+    - EEM
+    - VWO
+    - IEMG
+
+strategy:
+  formation_sessions: 504
+  trading_sessions: 63
+  entry_z: 2.0
+  exit_z: 0.5
+  stop_z: 4.0
+  max_holding_sessions: 20
+
+selection:
+  significance_level: 0.05
+  correction: "holm"
+  max_pairs_per_group: 1
+
+costs:
+  transaction_bps: [0, 5, 10, 20]
+  annual_borrow_rates: [0.0, 0.02, 0.05]
