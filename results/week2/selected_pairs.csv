@@ -1,0 +1,2 @@
+group,A,B,observations,formation_start,formation_end,return_correlation,alpha,beta,ols_r_squared,spread_mean,spread_std,coint_stat,coint_p,valid_test,warning,holm_p,reject_no_cointegration,eligible,i1_pattern_A,i1_pattern_B
+us_large_cap,IVV,SPY,504,2013-01-02,2014-12-31,0.9982880426466284,-0.018413579918458822,1.0042003682270604,0.9999927479970676,5.5791350375567985e-14,0.0002902648042410597,-14.960110022644118,1.0624352513146469e-26,True,,1.2749223015775761e-25,True,True,True,True

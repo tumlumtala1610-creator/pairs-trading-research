@@ -11,12 +11,12 @@ ETFs translates into out-of-sample trading performance after costs.
 
 ## Current Progress
 
-- Defined the research protocol and ETF universe.
-- Downloaded and cached development-sample data.
-- Completed the initial data quality review and pair coverage analysis.
-- Produced normalized price charts for all four ETF groups.
-- Next: OLS estimation, stationarity checks, and cointegration testing.
+- Completed the initial data quality review for 12 ETFs.
+- Tested 12 candidate pairs over a 504-session formation window.
+- Selected IVV-SPY after Engle–Granger testing and Holm correction.
+- Next: signal execution, position accounting, and trading costs.
 
+The selection applies to the 2013–2014 formation window.
 No strategy performance results are available yet.
 
 ## ETF Universe

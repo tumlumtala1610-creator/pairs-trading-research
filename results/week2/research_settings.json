@@ -1,0 +1,17 @@
+{
+  "formation_start": "2013-01-02",
+  "formation_end": "2014-12-31",
+  "formation_sessions": 504,
+  "max_lag": 12,
+  "autolag": "aic",
+  "adf_regression": "c",
+  "coint_trend": "c",
+  "significance_level": 0.05,
+  "multiple_testing_method": "holm",
+  "max_pairs_per_group": 1,
+  "regression_direction": "alphabetical",
+  "integration_diagnostics_used_as_filter": false,
+  "statsmodels_version": "0.15.0",
+  "pandas_version": "3.1.0",
+  "numpy_version": "2.5.4"
+}

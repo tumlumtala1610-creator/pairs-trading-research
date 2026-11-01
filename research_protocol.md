@@ -92,3 +92,35 @@ out-of-sample returns after transaction and borrowing costs?
 - Record changes to the protocol and their reasons.
 - Freeze the final design before evaluating the final holdout.
 - Do not change the universe based on observed strategy profitability.
+
+## Initial Formation Study
+
+The initial study uses 504 sessions from January 2, 2013 to
+December 31, 2014. This window provides a common sample for all
+12 ETFs. It does not set the starting date of the later walk-forward
+backtest.
+
+Log-price relationships are estimated by OLS with an intercept.
+The dependent variable is the alphabetically first ticker in each pair.
+
+ADF tests are applied to log prices and their first differences,
+using an intercept and AIC lag selection with a maximum of 12 lags.
+These tests are reported as diagnostics rather than an additional
+selection filter.
+
+Engle–Granger tests use an intercept and the same lag-search settings.
+Holm correction is applied across all 12 candidate pairs at the
+5% significance level.
+
+A pair qualifies only if its test is numerically valid, its
+Holm-adjusted p-value is below 0.05, its hedge ratio is positive,
+and its spread standard deviation is finite and positive.
+At most one pair is selected per group, ranked by adjusted p-value.
+
+Tests with near-collinearity warnings are excluded. Invalid tests
+receive a value of 1 when applying Holm correction, while their
+original results and warnings remain in the output.
+
+Formation z-scores use the mean and standard deviation estimated
+over the full formation window. They describe the training sample
+and are not used as trading signals within that same period.
